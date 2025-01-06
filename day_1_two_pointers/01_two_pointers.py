@@ -32,6 +32,7 @@ def two_pointer_solution(arr, target):
             left += 1
         else:
             right -= 1
+    return False
 
 result = two_pointer_solution(arr, target)
 
